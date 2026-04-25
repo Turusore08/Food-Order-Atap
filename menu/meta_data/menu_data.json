@@ -1,7 +1,7 @@
 [
   {
     "category": "Artisan Tea",
-    "image": "menu/Foto Menu Compressed/Artisan Tea.webp",
+    "image": "menu/foto-menu-optimized/artisan-tea.webp",
     "items": [
       {
         "name": "EARL GREY",
@@ -23,7 +23,7 @@
   },
   {
     "category": "BUNSTOPPABLE",
-    "image": "menu/Foto Menu Compressed/BUNSTOPPABLE.webp",
+    "image": "menu/foto-menu-optimized/bunstoppable.webp",
     "items": [
       {
         "name": "Cheese Burger",
@@ -61,7 +61,7 @@
   },
   {
     "category": "Cocoa Carnival",
-    "image": "menu/Foto Menu Compressed/Cocoa Carnival.webp",
+    "image": "menu/foto-menu-optimized/cocoa-carnival.webp",
     "items": [
       {
         "name": "NA ... NA ... NA ... NA ... NA ...",
@@ -83,7 +83,7 @@
   },
   {
     "category": "Don't Miss It",
-    "image": "menu/Foto Menu Compressed/Don`t Miss It.webp",
+    "image": "menu/foto-menu-optimized/dont-miss-it.webp",
     "items": [
       {
         "name": "MATCHA (Hot)",
@@ -145,7 +145,7 @@
   },
   {
     "category": "FEEL BETTER N SIP BETTER",
-    "image": "menu/Foto Menu Compressed/FEEL BETTER N SIP BETTER.webp",
+    "image": "menu/foto-menu-optimized/feel-better-n-sip-better.webp",
     "items": [
       {
         "name": "DOPPIO",
@@ -207,7 +207,7 @@
   },
   {
     "category": "Friying Gang",
-    "image": "menu/Foto Menu Compressed/Friying Gang.webp",
+    "image": "menu/foto-menu-optimized/friying-gang.webp",
     "items": [
       {
         "name": "Atap Big Platter",
@@ -241,7 +241,7 @@
   },
   {
     "category": "Hug in Mug and FOMO",
-    "image": "menu/Foto Menu Compressed/Hug in Mug and FOMO.webp",
+    "image": "menu/foto-menu-optimized/hug-in-mug-and-fomo.webp",
     "items": [
       {
         "name": "BANOGATO",
@@ -299,7 +299,7 @@
   },
   {
     "category": "ITALIAN STOP",
-    "image": "menu/Foto Menu Compressed/ITALIAN STOP.webp",
+    "image": "menu/foto-menu-optimized/italian-stop.webp",
     "items": [
       {
         "name": "Tomato sauce",
@@ -317,7 +317,7 @@
   },
   {
     "category": "NO SPOON NEEDED",
-    "image": "menu/Foto Menu Compressed/NO SPOON NEEDED.webp",
+    "image": "menu/foto-menu-optimized/no-spoon-needed.webp",
     "items": [
       {
         "name": "Beef Steak",
@@ -347,7 +347,7 @@
   },
   {
     "category": "RAISE YOUR TASTE",
-    "image": "menu/Foto Menu Compressed/RAISE YOUR TASTE.webp",
+    "image": "menu/foto-menu-optimized/raise-your-taste.webp",
     "items": [
       {
         "name": "ATAP NASGOR",
@@ -389,7 +389,7 @@
   },
   {
     "category": "Reducing City Temp n Less Bitter Get Better",
-    "image": "menu/Foto Menu Compressed/Reducing City Temp n Less Bitter Get Better.webp",
+    "image": "menu/foto-menu-optimized/reducing-city-temp-n-less-bitter-get-better.webp",
     "items": [
       {
         "name": "PLOTWIST",
@@ -463,7 +463,7 @@
   },
   {
     "category": "Sweetness is You",
-    "image": "menu/Foto Menu Compressed/Sweetness is You.webp",
+    "image": "menu/foto-menu-optimized/sweetness-is-you.webp",
     "items": [
       {
         "name": "Banana Waffle",
@@ -485,7 +485,7 @@
   },
   {
     "category": "TRY TRY AND TRAY",
-    "image": "menu/Foto Menu Compressed/TRY TRY AND TRAY.webp",
+    "image": "menu/foto-menu-optimized/try-try-and-tray.webp",
     "items": [
       {
         "name": "Tender Tray Steak",
@@ -499,7 +499,7 @@
   },
   {
     "category": "WE'VE MEAT BEFORE",
-    "image": "menu/Foto Menu Compressed/WE'VE MEAT BEFORE.webp",
+    "image": "menu/foto-menu-optimized/weve-meat-before.webp",
     "items": [
       {
         "name": "SOP IGA",
