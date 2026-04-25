@@ -1,197 +1,530 @@
 [
   {
     "category": "Artisan Tea",
-    "image": "menu/Foto Menu/Artisan Tea.png",
+    "image": "menu/Foto Menu Compressed/Artisan Tea.webp",
     "items": [
-      { "name": "EARL GREY", "price": 28000 },
-      { "name": "CAMOMILE", "price": 28000 },
-      { "name": "LEMON GINGER", "price": 28000 },
-      { "name": "ORANGE CINAMON", "price": 28000 }
+      {
+        "name": "EARL GREY",
+        "price": 28000
+      },
+      {
+        "name": "CAMOMILE",
+        "price": 28000
+      },
+      {
+        "name": "LEMON GINGER",
+        "price": 28000
+      },
+      {
+        "name": "ORANGE CINAMON",
+        "price": 28000
+      }
     ]
   },
   {
     "category": "BUNSTOPPABLE",
-    "image": "menu/Foto Menu/BUNSTOPPABLE.png",
+    "image": "menu/Foto Menu Compressed/BUNSTOPPABLE.webp",
     "items": [
-      { "name": "Cheese Burger", "price": 34000 },
-      { "name": "Smack Burger", "price": 41000 },
-      { "name": "Spicy Chicken Burger", "price": 30000 },
-      { "name": "Philly Cheesesteak", "price": 36000 },
-      { "name": "Cheesy Crisp", "price": 26000 },
-      { "name": "Barbaque Sauce", "price": 25000 },
-      { "name": "Cabe Garam", "price": 24000 },
-      { "name": "Garlic Sauce", "price": 24000 }
+      {
+        "name": "Cheese Burger",
+        "price": 34000
+      },
+      {
+        "name": "Smack Burger",
+        "price": 41000
+      },
+      {
+        "name": "Spicy Chicken Burger",
+        "price": 30000
+      },
+      {
+        "name": "Philly Cheesesteak",
+        "price": 36000
+      },
+      {
+        "name": "Cheesy Crisp",
+        "price": 26000
+      },
+      {
+        "name": "Barbaque Sauce",
+        "price": 25000
+      },
+      {
+        "name": "Cabe Garam",
+        "price": 24000
+      },
+      {
+        "name": "Garlic Sauce",
+        "price": 24000
+      }
     ]
   },
   {
     "category": "Cocoa Carnival",
-    "image": "menu/Foto Menu/Cocoa Carnival.png",
+    "image": "menu/Foto Menu Compressed/Cocoa Carnival.webp",
     "items": [
-      { "name": "NA ... NA ... NA ... NA ... NA ...", "price": 28000 },
-      { "name": "BROWNIE CARAMELA", "price": 28000 },
-      { "name": "TUTY NUTTY", "price": 26000 },
-      { "name": "BERRY TREMBLE", "price": 26000 }
+      {
+        "name": "NA ... NA ... NA ... NA ... NA ...",
+        "price": 28000
+      },
+      {
+        "name": "BROWNIE CARAMELA",
+        "price": 28000
+      },
+      {
+        "name": "TUTY NUTTY",
+        "price": 26000
+      },
+      {
+        "name": "BERRY TREMBLE",
+        "price": 26000
+      }
     ]
   },
   {
     "category": "Don't Miss It",
-    "image": "menu/Foto Menu/Don`t Miss It.png",
+    "image": "menu/Foto Menu Compressed/Don`t Miss It.webp",
     "items": [
-      { "name": "MATCHA (Hot)", "price": 22000 },
-      { "name": "MATCHA (Ice)", "price": 23000 },
-      { "name": "RED VELVET (Hot)", "price": 20000 },
-      { "name": "RED VELVET (Ice)", "price": 21000 },
-      { "name": "TARO (Hot)", "price": 20000 },
-      { "name": "TARO (Ice)", "price": 21000 },
-      { "name": "Squash LYCHEE", "price": 15000 },
-      { "name": "Squash MELON", "price": 15000 },
-      { "name": "Squash STRAWBERRY", "price": 15000 },
-      { "name": "Squash LEMON", "price": 15000 },
-      { "name": "Tea LYCHEE", "price": 13000 },
-      { "name": "Tea MELON", "price": 13000 },
-      { "name": "Tea STRAWBERRY", "price": 13000 },
-      { "name": "Tea LEMON", "price": 13000 }
+      {
+        "name": "MATCHA (Hot)",
+        "price": 22000
+      },
+      {
+        "name": "MATCHA (Ice)",
+        "price": 23000
+      },
+      {
+        "name": "RED VELVET (Hot)",
+        "price": 20000
+      },
+      {
+        "name": "RED VELVET (Ice)",
+        "price": 21000
+      },
+      {
+        "name": "TARO (Hot)",
+        "price": 20000
+      },
+      {
+        "name": "TARO (Ice)",
+        "price": 21000
+      },
+      {
+        "name": "Squash LYCHEE",
+        "price": 15000
+      },
+      {
+        "name": "Squash MELON",
+        "price": 15000
+      },
+      {
+        "name": "Squash STRAWBERRY",
+        "price": 15000
+      },
+      {
+        "name": "Squash LEMON",
+        "price": 15000
+      },
+      {
+        "name": "Tea LYCHEE",
+        "price": 13000
+      },
+      {
+        "name": "Tea MELON",
+        "price": 13000
+      },
+      {
+        "name": "Tea STRAWBERRY",
+        "price": 13000
+      },
+      {
+        "name": "Tea LEMON",
+        "price": 13000
+      }
     ]
   },
   {
     "category": "FEEL BETTER N SIP BETTER",
-    "image": "menu/Foto Menu/FEEL BETTER N SIP BETTER.png",
+    "image": "menu/Foto Menu Compressed/FEEL BETTER N SIP BETTER.webp",
     "items": [
-      { "name": "DOPPIO", "price": 18000 },
-      { "name": "AMERICANO", "price": 18000 },
-      { "name": "PICCOLO", "price": 24000 },
-      { "name": "CAFFÉ LATTE", "price": 20000 },
-      { "name": "CAPPUCCINO", "price": 24000 },
-      { "name": "MOCCA LATTE", "price": 25000 },
-      { "name": "SPLIT SHOT", "price": 25000 },
-      { "name": "ADD ON (HAZELNUT, VANILLA, CARAMEL)", "price": 5000 },
-      { "name": "FILTER COFFEE TIER 1 (HOT)", "price": 25000 },
-      { "name": "FILTER COFFEE TIER 1 (ICE)", "price": 26000 },
-      { "name": "FILTER COFFEE TIER 2 (HOT)", "price": 35000 },
-      { "name": "FILTER COFFEE TIER 2 (ICE)", "price": 36000 },
-      { "name": "VIETNAM DRIP (HOT)", "price": 19000 },
-      { "name": "VIETNAM DRIP (ICE)", "price": 20000 }
+      {
+        "name": "DOPPIO",
+        "price": 18000
+      },
+      {
+        "name": "AMERICANO",
+        "price": 18000
+      },
+      {
+        "name": "PICCOLO",
+        "price": 24000
+      },
+      {
+        "name": "CAFF\u00c9 LATTE",
+        "price": 20000
+      },
+      {
+        "name": "CAPPUCCINO",
+        "price": 24000
+      },
+      {
+        "name": "MOCCA LATTE",
+        "price": 25000
+      },
+      {
+        "name": "SPLIT SHOT",
+        "price": 25000
+      },
+      {
+        "name": "ADD ON (HAZELNUT, VANILLA, CARAMEL)",
+        "price": 5000
+      },
+      {
+        "name": "FILTER COFFEE TIER 1 (HOT)",
+        "price": 25000
+      },
+      {
+        "name": "FILTER COFFEE TIER 1 (ICE)",
+        "price": 26000
+      },
+      {
+        "name": "FILTER COFFEE TIER 2 (HOT)",
+        "price": 35000
+      },
+      {
+        "name": "FILTER COFFEE TIER 2 (ICE)",
+        "price": 36000
+      },
+      {
+        "name": "VIETNAM DRIP (HOT)",
+        "price": 19000
+      },
+      {
+        "name": "VIETNAM DRIP (ICE)",
+        "price": 20000
+      }
     ]
   },
   {
     "category": "Friying Gang",
-    "image": "menu/Foto Menu/Friying Gang.png",
+    "image": "menu/Foto Menu Compressed/Friying Gang.webp",
     "items": [
-      { "name": "Atap Big Platter", "price": 38000 },
-      { "name": "Platter", "price": 28000 },
-      { "name": "Corn Ribb OG", "price": 15000 },
-      { "name": "Corn Ribb Mentai", "price": 18000 },
-      { "name": "Brokoli", "price": 16000 },
-      { "name": "Onion Ring", "price": 20000 },
-      { "name": "French Fries", "price": 17000 }
+      {
+        "name": "Atap Big Platter",
+        "price": 38000
+      },
+      {
+        "name": "Platter",
+        "price": 28000
+      },
+      {
+        "name": "Corn Ribb OG",
+        "price": 15000
+      },
+      {
+        "name": "Corn Ribb Mentai",
+        "price": 18000
+      },
+      {
+        "name": "Brokoli",
+        "price": 16000
+      },
+      {
+        "name": "Onion Ring",
+        "price": 20000
+      },
+      {
+        "name": "French Fries",
+        "price": 17000
+      }
     ]
   },
   {
     "category": "Hug in Mug and FOMO",
-    "image": "menu/Foto Menu/Hug in Mug and FOMO.png",
+    "image": "menu/Foto Menu Compressed/Hug in Mug and FOMO.webp",
     "items": [
-      { "name": "BANOGATO", "price": 30000 },
-      { "name": "ATAPFOGATO", "price": 28000 },
-      { "name": "BISCOTTI", "price": 26000 },
-      { "name": "ASIAN DOLCE", "price": 23000 },
-      { "name": "CARAMEL MACHIATO", "price": 23000 },
-      { "name": "ES KOPI LEH", "price": 20000 },
-      { "name": "ES KOPI PISANG", "price": 19000 },
-      { "name": "ES KOPI PANDAN", "price": 19000 },
-      { "name": "ES KOPI CRÈME BRULEE", "price": 19000 },
-      { "name": "ES KOPI BUTTERSCOTCH", "price": 19000 },
-      { "name": "ES KOPI SUKLAT", "price": 18000 },
-      { "name": "ES KOPI SUSU TOK", "price": 18000 },
-      { "name": "ES KOPI LEMON", "price": 18000 }
+      {
+        "name": "BANOGATO",
+        "price": 30000
+      },
+      {
+        "name": "ATAPFOGATO",
+        "price": 28000
+      },
+      {
+        "name": "BISCOTTI",
+        "price": 26000
+      },
+      {
+        "name": "ASIAN DOLCE",
+        "price": 23000
+      },
+      {
+        "name": "CARAMEL MACHIATO",
+        "price": 23000
+      },
+      {
+        "name": "ES KOPI LEH",
+        "price": 20000
+      },
+      {
+        "name": "ES KOPI PISANG",
+        "price": 19000
+      },
+      {
+        "name": "ES KOPI PANDAN",
+        "price": 19000
+      },
+      {
+        "name": "ES KOPI CR\u00c8ME BRULEE",
+        "price": 19000
+      },
+      {
+        "name": "ES KOPI BUTTERSCOTCH",
+        "price": 19000
+      },
+      {
+        "name": "ES KOPI SUKLAT",
+        "price": 18000
+      },
+      {
+        "name": "ES KOPI SUSU TOK",
+        "price": 18000
+      },
+      {
+        "name": "ES KOPI LEMON",
+        "price": 18000
+      }
     ]
   },
   {
     "category": "ITALIAN STOP",
-    "image": "menu/Foto Menu/ITALIAN STOP.png",
+    "image": "menu/Foto Menu Compressed/ITALIAN STOP.webp",
     "items": [
-      { "name": "Tomato sauce", "price": 26000 },
-      { "name": "Aglio Olio", "price": 26000 },
-      { "name": "Carbonara", "price": 28000 }
+      {
+        "name": "Tomato sauce",
+        "price": 26000
+      },
+      {
+        "name": "Aglio Olio",
+        "price": 26000
+      },
+      {
+        "name": "Carbonara",
+        "price": 28000
+      }
     ]
   },
   {
     "category": "NO SPOON NEEDED",
-    "image": "menu/Foto Menu/NO SPOON NEEDED.png",
+    "image": "menu/Foto Menu Compressed/NO SPOON NEEDED.webp",
     "items": [
-      { "name": "Beef Steak", "price": 105000 },
-      { "name": "Caesar Salad", "price": 77000 },
-      { "name": "Beef Salisbury", "price": 38000 },
-      { "name": "Chicken Cordon Bleu", "price": 38000 },
-      { "name": "Chicken Grill Salad", "price": 36000 },
-      { "name": "Chiken Crispy", "price": 32000 }
+      {
+        "name": "Beef Steak",
+        "price": 105000
+      },
+      {
+        "name": "Caesar Salad",
+        "price": 77000
+      },
+      {
+        "name": "Beef Salisbury",
+        "price": 38000
+      },
+      {
+        "name": "Chicken Cordon Bleu",
+        "price": 38000
+      },
+      {
+        "name": "Chicken Grill Salad",
+        "price": 36000
+      },
+      {
+        "name": "Chiken Crispy",
+        "price": 32000
+      }
     ]
   },
   {
     "category": "RAISE YOUR TASTE",
-    "image": "menu/Foto Menu/RAISE YOUR TASTE.png",
+    "image": "menu/Foto Menu Compressed/RAISE YOUR TASTE.webp",
     "items": [
-      { "name": "ATAP NASGOR", "price": 24000 },
-      { "name": "DORI SAMBEL MATAH", "price": 25000 },
-      { "name": "AYAM MENTAI", "price": 24000 },
-      { "name": "NASI \"BUTTER\" AYAM KRISPI", "price": 26000 },
-      { "name": "KARI AYAM", "price": 26000 },
-      { "name": "AYAM SAMBEL MATAH", "price": 26000 },
-      { "name": "NASI AYAM KATSU", "price": 25000 },
-      { "name": "NASI AYAM TELUR ASIN", "price": 26000 },
-      { "name": "NASI AYAM CABE GARAM", "price": 26000 }
+      {
+        "name": "ATAP NASGOR",
+        "price": 24000
+      },
+      {
+        "name": "DORI SAMBEL MATAH",
+        "price": 25000
+      },
+      {
+        "name": "AYAM MENTAI",
+        "price": 24000
+      },
+      {
+        "name": "NASI \"BUTTER\" AYAM KRISPI",
+        "price": 26000
+      },
+      {
+        "name": "KARI AYAM",
+        "price": 26000
+      },
+      {
+        "name": "AYAM SAMBEL MATAH",
+        "price": 26000
+      },
+      {
+        "name": "NASI AYAM KATSU",
+        "price": 25000
+      },
+      {
+        "name": "NASI AYAM TELUR ASIN",
+        "price": 26000
+      },
+      {
+        "name": "NASI AYAM CABE GARAM",
+        "price": 26000
+      }
     ]
   },
   {
     "category": "Reducing City Temp n Less Bitter Get Better",
-    "image": "menu/Foto Menu/Reducing City Temp n Less Bitter Get Better.png",
+    "image": "menu/Foto Menu Compressed/Reducing City Temp n Less Bitter Get Better.webp",
     "items": [
-      { "name": "PLOTWIST", "price": 25000 },
-      { "name": "GUMMY LAGOON", "price": 22000 },
-      { "name": "OREO CREAM", "price": 22000 },
-      { "name": "NEON 90'S", "price": 21000 },
-      { "name": "APPLE PIE", "price": 20000 },
-      { "name": "SNOW IN SUMMER", "price": 20000 },
-      { "name": "MILKY BERRY", "price": 20000 },
-      { "name": "PINNY BERRY", "price": 19000 },
-      { "name": "MOJITO RYCHEE", "price": 19000 },
-      { "name": "SPARKLING BERRY", "price": 18000 },
-      { "name": "HERBIE", "price": 18000 },
-      { "name": "RONDE", "price": 26000 },
-      { "name": "BEACH MONKEY", "price": 26000 },
-      { "name": "NIKKA", "price": 26000 },
-      { "name": "BUKAN LYCHEE TEA", "price": 25000 },
-      { "name": "CINNAMON PINOT NOIR", "price": 25000 },
-      { "name": "VIRGIN PINAPPLE", "price": 25000 }
+      {
+        "name": "PLOTWIST",
+        "price": 25000
+      },
+      {
+        "name": "GUMMY LAGOON",
+        "price": 22000
+      },
+      {
+        "name": "OREO CREAM",
+        "price": 22000
+      },
+      {
+        "name": "NEON 90'S",
+        "price": 21000
+      },
+      {
+        "name": "APPLE PIE",
+        "price": 20000
+      },
+      {
+        "name": "SNOW IN SUMMER",
+        "price": 20000
+      },
+      {
+        "name": "MILKY BERRY",
+        "price": 20000
+      },
+      {
+        "name": "PINNY BERRY",
+        "price": 19000
+      },
+      {
+        "name": "MOJITO RYCHEE",
+        "price": 19000
+      },
+      {
+        "name": "SPARKLING BERRY",
+        "price": 18000
+      },
+      {
+        "name": "HERBIE",
+        "price": 18000
+      },
+      {
+        "name": "RONDE",
+        "price": 26000
+      },
+      {
+        "name": "BEACH MONKEY",
+        "price": 26000
+      },
+      {
+        "name": "NIKKA",
+        "price": 26000
+      },
+      {
+        "name": "BUKAN LYCHEE TEA",
+        "price": 25000
+      },
+      {
+        "name": "CINNAMON PINOT NOIR",
+        "price": 25000
+      },
+      {
+        "name": "VIRGIN PINAPPLE",
+        "price": 25000
+      }
     ]
   },
   {
     "category": "Sweetness is You",
-    "image": "menu/Foto Menu/Sweetness is You.png",
+    "image": "menu/Foto Menu Compressed/Sweetness is You.webp",
     "items": [
-      { "name": "Banana Waffle", "price": 23000 },
-      { "name": "Strawberry Waffle", "price": 23000 },
-      { "name": "Peanut Butter Toast", "price": 20000 },
-      { "name": "Blueberry Toast", "price": 20000 }
+      {
+        "name": "Banana Waffle",
+        "price": 23000
+      },
+      {
+        "name": "Strawberry Waffle",
+        "price": 23000
+      },
+      {
+        "name": "Peanut Butter Toast",
+        "price": 20000
+      },
+      {
+        "name": "Blueberry Toast",
+        "price": 20000
+      }
     ]
   },
   {
     "category": "TRY TRY AND TRAY",
-    "image": "menu/Foto Menu/TRY TRY AND TRAY.png",
+    "image": "menu/Foto Menu Compressed/TRY TRY AND TRAY.webp",
     "items": [
-      { "name": "Tender Tray Steak", "price": 67000 },
-      { "name": "Southern Fried Chicken", "price": 50000 }
+      {
+        "name": "Tender Tray Steak",
+        "price": 67000
+      },
+      {
+        "name": "Southern Fried Chicken",
+        "price": 50000
+      }
     ]
   },
   {
     "category": "WE'VE MEAT BEFORE",
-    "image": "menu/Foto Menu/WE'VE MEAT BEFORE.png",
+    "image": "menu/Foto Menu Compressed/WE'VE MEAT BEFORE.webp",
     "items": [
-      { "name": "SOP IGA", "price": 50000 },
-      { "name": "ASEM ASEM IGA", "price": 50000 },
-      { "name": "BEEF YAKINIKU", "price": 32000 },
-      { "name": "BEEF BLACKPEPPER", "price": 32000 },
-      { "name": "SEI SAPI IJO", "price": 32000 },
-      { "name": "SEI SAPI MATAH", "price": 32000 }
+      {
+        "name": "SOP IGA",
+        "price": 50000
+      },
+      {
+        "name": "ASEM ASEM IGA",
+        "price": 50000
+      },
+      {
+        "name": "BEEF YAKINIKU",
+        "price": 32000
+      },
+      {
+        "name": "BEEF BLACKPEPPER",
+        "price": 32000
+      },
+      {
+        "name": "SEI SAPI IJO",
+        "price": 32000
+      },
+      {
+        "name": "SEI SAPI MATAH",
+        "price": 32000
+      }
     ]
   }
 ]
