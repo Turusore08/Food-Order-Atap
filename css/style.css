@@ -25,7 +25,7 @@ body {
 }
 
 
-.hero {
+.bagian-hero {
     background: linear-gradient(rgba(74, 90, 79, 0.8), rgba(74, 90, 79, 0.8)), 
                 url("../menu/foto-menu-optimized/raise-your-taste.webp");
     background-size: cover;
@@ -38,7 +38,7 @@ body {
 }
 
 
-.category-nav {
+.navigasi-kategori {
     position: sticky;
     top: 80px;
     z-index: 100;
@@ -63,7 +63,7 @@ body {
     border-color: var(--primary-color);
 }
 
-.category-icon {
+.ikon-kategori {
     width: 24px;
     height: 24px;
     object-fit: cover;
@@ -71,7 +71,7 @@ body {
 }
 
 
-.menu-card {
+.kartu-menu {
     border: none;
     border-radius: 15px;
     overflow: hidden;
@@ -81,18 +81,18 @@ body {
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
-.menu-card:hover {
+.kartu-menu:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
-.card-price {
+.harga-item {
     color: var(--primary-color);
     font-weight: 700;
     font-size: 1.2rem;
 }
 
-.btn-add-cart {
+.tombol-tambah {
     background-color: var(--primary-color);
     color: var(--white);
     border: none;
@@ -101,13 +101,13 @@ body {
     transition: background-color 0.3s;
 }
 
-.btn-add-cart:hover {
+.tombol-tambah:hover {
     background-color: #1e411f;
     color: var(--white);
 }
 
 
-.cart-item {
+.isi-keranjang {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,7 +115,7 @@ body {
     border-bottom: 1px solid #eee;
 }
 
-.cart-total-section {
+.area-total-belanja {
     padding: 20px;
     border-top: 2px solid #eee;
     background: #f9f9f9;
@@ -144,7 +144,7 @@ body {
 }
 
 
-.float-cart {
+.tombol-keranjang-melayang {
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -162,12 +162,12 @@ body {
     transition: transform 0.3s;
 }
 
-.float-cart:hover {
+.tombol-keranjang-melayang:hover {
     transform: scale(1.1);
     color: var(--white);
 }
 
-.cart-badge {
+.angka-notif {
     position: absolute;
     top: -5px;
     right: -5px;
@@ -178,13 +178,13 @@ body {
     font-size: 12px;
 }
 
-.category-banner {
+.banner-kategori {
     position: relative;
     background-color: var(--white);
     border: 1px solid #eee;
 }
 
-.category-banner-overlay {
+.overlay-banner {
     background: rgba(255, 255, 255, 0.9);
     border-top: 1px solid #eee;
 }
@@ -219,8 +219,8 @@ footer.bg-dark {
     background-color: var(--primary-color) !important;
 }
 
-/* Custom Toast Styles */
-.custom-toast {
+/* Notifikasi Pop-up */
+.notif-pop-up {
     background: var(--white);
     color: var(--text-dark);
     padding: 1rem 1.5rem;
@@ -234,19 +234,19 @@ footer.bg-dark {
     min-width: 300px;
 }
 
-.custom-toast i {
+.notif-pop-up i {
     font-size: 1.5rem;
     margin-right: 15px;
     color: var(--primary-color);
 }
 
-.custom-toast .toast-title {
+.notif-pop-up .judul-notif {
     font-weight: 700;
     margin-bottom: 2px;
     color: var(--primary-color);
 }
 
-.custom-toast .toast-body {
+.notif-pop-up .isi-notif {
     font-size: 0.9rem;
     color: var(--text-dark);
 }
@@ -274,7 +274,7 @@ footer.bg-dark {
 }
 
 @media (max-width: 576px) {
-    .custom-toast {
+    .notif-pop-up {
         min-width: calc(100vw - 40px);
         margin: 0 10px 10px 10px;
     }

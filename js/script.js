@@ -13,12 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('loginForm')?.addEventListener('submit', handleLogin);
     document.getElementById('registerForm')?.addEventListener('submit', handleRegister);
     document.getElementById('logoutBtn')?.addEventListener('click', handleLogout);
-    document.getElementById('checkoutBtn')?.addEventListener('click', showCheckoutSummary);
+    document.getElementById('tombolCheckout')?.addEventListener('click', showCheckoutSummary);
     document.getElementById('confirmOrderBtn')?.addEventListener('click', processCheckout);
 });
 
 async function fetchMenu() {
-    const container = document.getElementById('menuGrid');
+    const container = document.getElementById('wadahMenu');
     try {
         const response = await fetch('menu/meta_data/menu_data.json');
         if (!response.ok) throw new Error('Gagal memuat data menu');
@@ -40,7 +40,7 @@ async function fetchMenu() {
 }
 
 function renderCategories() {
-    const nav = document.getElementById('categoryNav');
+    const nav = document.getElementById('listKategori');
     if (!nav) return;
 
     nav.innerHTML = menuData.map((cat, index) => `
@@ -48,7 +48,7 @@ function renderCategories() {
             <a class="nav-link d-flex align-items-center ${index === 0 ? 'active' : ''}" 
                href="#" 
                onclick="selectCategory(event, '${cat.category.replace(/'/g, "\\'")}')">
-               <img src="${cat.image}" alt="" class="category-icon me-2 rounded-circle">
+               <img src="${cat.image}" alt="" class="ikon-kategori me-2 rounded-circle">
                ${cat.category}
             </a>
         </li>
@@ -57,16 +57,16 @@ function renderCategories() {
 
 function selectCategory(event, category) {
     event.preventDefault();
-    document.querySelectorAll('#categoryNav .nav-link').forEach(link => link.classList.remove('active'));
+    document.querySelectorAll('#listKategori .nav-link').forEach(link => link.classList.remove('active'));
     event.currentTarget.classList.add('active');
 
     renderMenuItems(category);
 }
 
 function renderMenuItems(categoryName) {
-    const container = document.getElementById('menuGrid');
-    const featuredImg = document.getElementById('categoryFeaturedImage');
-    const featuredTitle = document.getElementById('categoryFeaturedTitle');
+    const container = document.getElementById('wadahMenu');
+    const featuredImg = document.getElementById('gambarBesarKategori');
+    const featuredTitle = document.getElementById('judulKategoriSekarang');
     const category = menuData.find(c => c.category === categoryName);
 
     if (!container || !category) return;
@@ -76,13 +76,13 @@ function renderMenuItems(categoryName) {
 
     container.innerHTML = category.items.map(item => `
         <div class="col-md-6 col-lg-4 mb-4">
-            <div class="menu-card card">
+            <div class="kartu-menu card">
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">${item.name}</h5>
                     <p class="card-text text-muted small">${categoryName}</p>
                     <div class="mt-auto d-flex justify-content-between align-items-center">
-                        <span class="card-price">Rp ${item.price.toLocaleString('id-ID')}</span>
-                        <button class="btn btn-add-cart" onclick="addToCart('${item.name}', ${item.price})">
+                        <span class="harga-item">Rp ${item.price.toLocaleString('id-ID')}</span>
+                        <button class="btn tombol-tambah" onclick="addToCart('${item.name}', ${item.price})">
                             <i class="bi bi-plus-lg"></i> Tambah
                         </button>
                     </div>
@@ -106,16 +106,16 @@ function addToCart(name, price) {
 }
 
 function showNotification(menuName) {
-    const container = document.getElementById('toastContainer');
+    const container = document.getElementById('wadahNotifikasi');
     if (!container) return;
 
     const toast = document.createElement('div');
-    toast.className = 'custom-toast';
+    toast.className = 'notif-pop-up';
     toast.innerHTML = `
         <i class="bi bi-check-circle-fill"></i>
         <div>
-            <div class="toast-title">Berhasil!</div>
-            <div class="toast-body">Order <strong>${menuName}</strong> ditambahkan ke keranjang.</div>
+            <div class="judul-notif">Berhasil!</div>
+            <div class="isi-notif">Order <strong>${menuName}</strong> ditambahkan ke keranjang.</div>
         </div>
     `;
 
@@ -152,10 +152,10 @@ function saveCart() {
 }
 
 function updateCartUI() {
-    const cartList = document.getElementById('cartItems');
-    const cartCount = document.getElementById('cartCount');
-    const cartTotal = document.getElementById('cartTotal');
-    const floatingCount = document.getElementById('floatingCartCount');
+    const cartList = document.getElementById('listBarang');
+    const cartCount = document.getElementById('jumlahKeranjang');
+    const cartTotal = document.getElementById('totalHarga');
+    const floatingCount = document.getElementById('jumlahKeranjangFloating');
 
     if (!cartList) return;
 
@@ -167,7 +167,7 @@ function updateCartUI() {
         total += itemTotal;
         count += item.quantity;
         return `
-            <div class="cart-item">
+            <div class="isi-keranjang">
                 <div>
                     <h6 class="mb-0">${item.name}</h6>
                     <small class="text-muted">Rp ${item.price.toLocaleString('id-ID')} x ${item.quantity}</small>
@@ -239,7 +239,7 @@ function handleLogout() {
 }
 
 function updateAuthUI() {
-    const authSection = document.getElementById('authSection');
+    const authSection = document.getElementById('areaUser');
     if (!authSection) return;
 
     if (currentUser) {
@@ -274,8 +274,8 @@ function showCheckoutSummary() {
         return;
     }
 
-    const summaryList = document.getElementById('checkoutSummary');
-    const summaryTotal = document.getElementById('summaryTotal');
+    const summaryList = document.getElementById('listRingkasan');
+    const summaryTotal = document.getElementById('totalAkhir');
 
     let total = 0;
     summaryList.innerHTML = cart.map(item => {
@@ -289,7 +289,7 @@ function showCheckoutSummary() {
 
     summaryTotal.innerText = `Rp ${total.toLocaleString('id-ID')}`;
 
-    bootstrap.Offcanvas.getInstance(document.getElementById('cartOffcanvas')).hide();
+    bootstrap.Offcanvas.getInstance(document.getElementById('keranjangBelanja')).hide();
     new bootstrap.Modal(document.getElementById('checkoutModal')).show();
 }
 
